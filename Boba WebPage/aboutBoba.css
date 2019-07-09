@@ -4,10 +4,29 @@
    
    }
    
-   .paraAb{
-    /*text-align: center;
-    left: 700px;
-    right: 300px; */
-    text-indent: 40px;
    
+   .paraAb{
+    text-indent: 40px;
+    width: 700px;
+    margin-left: 380px;
+    margin-right: 200;
+   }
+   
+   .bobaAb{
+    width: 180x;
+    height: 180px;
+    position: relative;
+    top: -220px;
+    right: -90px;
+   }
+
+   .sodaAb{
+    width: 180px;
+    height: 180px;
+    float: right;
+    position: relative;
+    top: -220px;
+    left: -90px;
+    /* right: -90px; */
+
    }
