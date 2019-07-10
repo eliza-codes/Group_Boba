@@ -43,9 +43,16 @@
 
    }
 
-   /* Trying to make a border for the title. */
-   .titleBo{
+   #titleBo{
     border: dashed;
     border-color: green;
+    border-width: 6px;
+    border-color: #99b4ff;
+    top: 20px;
+   }
 
+   .abBobaBack{
+    border: solid;
+    border-color: paleturquoise;
+    background-color: paleturquoise;
    }
