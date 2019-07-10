@@ -37,6 +37,13 @@
    }
 
    .baHealth{
-    top: -400px;
+    margin-top: -200px;
+    width: 640px;
+    text-indent: 40px;
+
+   }
+
+   #baTitle{
+    text-indent: 0px;
 
    }
