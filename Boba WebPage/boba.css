@@ -9,6 +9,10 @@
     background-attachment: fixed;
     background-size: cover;
 
+    border: solid;
+    background-color: #7d7d7d;
+    opacity: 0.3;
+
 }
 
 .main-image{
