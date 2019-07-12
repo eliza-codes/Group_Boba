@@ -94,3 +94,25 @@
 .topWeb{
 position: fixed;
 }
+
+.bobaPlaces{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 476px;
+    right: 40px;
+    width: 30%;
+    background-color: #99b4ff;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline block;
+    font-size: 20px;
+    text-decoration: bold;
+    cursor: pointer;
+
+}
+
+.bobaPlaces:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
