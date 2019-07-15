@@ -1,10 +1,9 @@
 body{
     background-image: url('https://images.photowall.com/products/55965/world-map-pastel-blue.jpg?h=699&q=85');
     background-repeat: no-repeat;
-    max-width: 100%;
-    max-height: 100%;
-    background-position: 100%;
-    background-size: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -12,4 +11,9 @@ body{
     border: solid;
     border-color: paleturquoise;
     background-color: paleturquoise;
+}
+
+h1{
+    font-family: fantasy;
+
 }
