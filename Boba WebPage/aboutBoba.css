@@ -18,9 +18,6 @@
     position: relative;
     top: -220px;
     right: -90px;
-    border: solid;
-    border-width: 8px;
-    border-color: #a1ffd9;
    }
 
    .sodaAb{
@@ -30,10 +27,6 @@
     position: relative;
     top: -220px;
     left: -90px;
-    border: solid;
-    border-width: 8px;
-    border-color: #a1ffd9;
-
    }
 
    .baHealth{
