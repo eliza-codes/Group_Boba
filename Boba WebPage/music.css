@@ -8,6 +8,7 @@
     border: solid;
     border-radius: 10px;
     border-color: #f59542;
-    color: #ffce6b;
+    background-color: #ffce6b;
+    width: 350px;
 
 }
