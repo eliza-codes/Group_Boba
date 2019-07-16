@@ -3,3 +3,11 @@
     border-color: paleturquoise;
     background-color: paleturquoise;
    }
+
+.claPopButt{
+    border: solid;
+    border-radius: 10px;
+    border-color: #f59542;
+    color: #ffce6b;
+
+}
