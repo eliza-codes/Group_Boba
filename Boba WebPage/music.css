@@ -10,5 +10,27 @@
     border-color: #f59542;
     background-color: #ffce6b;
     width: 350px;
+    height: 25px;
+    text-align: center;
+    position: fixed;
+    top: 120px;
+
+}
+
+.popNow{
+    border: solid;
+    border-radius: 10px;
+    border-color: #f59542;
+    background-color: #ffce6b;
+    width: 350px;
+    height: 25px;
+    text-align: center;
+    float: left;
+    top: 220px;
+
+}
+
+.chineseBoba{
+    width: 390px;
 
 }
