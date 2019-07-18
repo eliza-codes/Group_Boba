@@ -42,11 +42,36 @@
     right: 145px;
     width: 320px;
     text-indent: 40px;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    border: inset;
+    border-width: 5px;
+    border-color: #f56c80;
+    color: white;
+
 
 }
 
 body{
     background-image: url('https://www.muralswallpaper.com/app/uploads/sunset-clouds-textures-plain.jpg');
-    color: white;
+
+}
+
+.radioFunc{
+    width: 320px;
+    text-indent: 40px;
+    position: absolute;
+    left: 29px;
+    top: 279px;
+    color: #f56c80;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    border: inset;
+    border-width: 5px;
+    border-color: #f56c80;
+}
+
+.aesFlo{
+    width: 140px;
+    right: 0px;
+    bottom: 0px;
 
 }
