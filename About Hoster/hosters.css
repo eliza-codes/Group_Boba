@@ -16,3 +16,15 @@ h1{
     background-color: paleturquoise;
 
 }
+
+.hobbies{
+    position: fixed;
+    right: 5px;
+    top: 105px;
+
+}
+
+.thisSection{
+    left: 5px;
+
+}
