@@ -1,0 +1,140 @@
+.front-title{
+    font-style: oblique;
+    color: black;
+    background: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0771/3376/2012_0601_9453_mirror.png);
+    height: 300px;
+    background-color: #c1ffd0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* opacity: 0.4; */
+    margin-top: -8px;
+
+}
+
+.main-image{
+    width: 265px;
+    border: groove;
+    border-width: 15px;
+    border-color: pink;
+    
+    }
+
+.featured-section{
+    position: absolute;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    top: 376px;
+    left: 50px;
+    width: 30%;
+    display: block;
+    border: dotted;
+    border-width: 8px;
+    border-color: #99b4ff;
+
+}
+
+.royaltea-image{
+    width: 120px;
+    border-radius: 45%;
+}
+
+#royalteatime{
+    text-indent: 5%;
+    left: 10px;
+
+}
+
+.hoster{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 690px;
+    left: 595px;
+
+}
+
+.female{
+    border-radius: 50%;
+    width: 80px;
+
+}
+
+.male{
+    border-radius: 50%;
+    width: 80px;
+
+}
+
+.aboutbobabutton{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 376px;
+    right: 40px;
+    width: 30%;
+    background-color: #99b4ff;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline block;
+    font-size: 20px;
+    text-decoration: bold;
+    cursor: pointer;
+
+}
+
+.aboutbobabutton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.topWeb{
+position: fixed;
+}
+
+.bobaPlaces{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 476px;
+    right: 40px;
+    width: 30%;
+    background-color: #9a8fff;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline block;
+    font-size: 20px;
+    text-decoration: bold;
+    cursor: pointer;
+
+}
+
+.bobaPlaces:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.music{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 576px;
+    right: 40px;
+    width: 30%;
+    background-color: #99b4ff;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline block;
+    font-size: 20px;
+    text-decoration: bold;
+    cursor: pointer;
+
+}
+
+.music:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}

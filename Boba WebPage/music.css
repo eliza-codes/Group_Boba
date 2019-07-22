@@ -1,0 +1,92 @@
+.musicBack{
+    border: solid;
+    border-color: paleturquoise;
+    background-color: paleturquoise;
+   }
+
+.claPopButt{
+    border: solid;
+    border-radius: 10px;
+    border-color: #f59542;
+    background-color: #ffce6b;
+    width: 350px;
+    height: 25px;
+    text-align: center;
+    position: fixed;
+    top: 120px;
+
+}
+
+.popNow{
+    border: solid;
+    border-radius: 10px;
+    border-color: #f59542;
+    background-color: #ffce6b;
+    width: 350px;
+    height: 25px;
+    text-align: center;
+    float: left;
+    margin-top: 120px;
+
+}
+
+.chineseBoba{
+    width: 390px;
+    position: absolute;
+    left: 545px;
+
+}
+
+.radioDes{
+    position: absolute;
+    right: 145px;
+    width: 320px;
+    text-indent: 40px;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    border: inset;
+    border-width: 5px;
+    border-color: #f56c80;
+    color: white;
+
+
+}
+
+body{
+    background-image: url('https://www.muralswallpaper.com/app/uploads/sunset-clouds-textures-plain.jpg');
+    color: white;
+
+}
+
+.radioFunc{
+    width: 320px;
+    text-indent: 40px;
+    position: absolute;
+    left: 29px;
+    top: 279px;
+    color: #f56c80;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    border: inset;
+    border-width: 5px;
+    border-color: #f56c80;
+}
+
+.aesFlo{
+    width: 300px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.fiHalf{
+    position: fixed;
+    left: 300px;
+    top: 124px;
+}
+
+.secHalf{
+    position: fixed;
+    right: 300px;
+    top: 124px;
+
+}

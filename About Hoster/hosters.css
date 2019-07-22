@@ -1,0 +1,48 @@
+p{
+    text-indent: 40px;
+    width: 620px;
+
+}
+
+h1{
+    font-family: cursive, sans-serif;
+    color: #4242f5;
+
+}
+
+body{
+    background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/watercolor-background-hd-14.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 25ps;
+    background-position: center;
+    background-size: auto;
+
+}
+
+.backMeHost{
+    border: solid;
+    border-color: paleturquoise;
+    background-color: paleturquoise;
+
+}
+
+.hobbies{
+    position: fixed;
+    right: 5px;
+    top: 105px;
+
+}
+
+.thisSection{
+    margin-left: 70px;
+
+}
+
+.yumyum{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 500px;
+
+}

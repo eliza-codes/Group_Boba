@@ -1,0 +1,75 @@
+.desAbBo{
+    text-align: center;
+    color: red;
+   
+   }
+   
+   
+   .paraAb{
+    text-indent: 40px;
+    width: 700px;
+    margin-left: 360px;
+    margin-right: 200;
+   }
+   
+   .bobaAb{
+    width: 180x;
+    height: 180px;
+    position: relative;
+    top: -220px;
+    right: -90px;
+   }
+
+   .sodaAb{
+    width: 180px;
+    height: 180px;
+    float: right;
+    position: relative;
+    top: -220px;
+    left: -90px;
+   }
+
+   .baHealth{
+    margin-top: -200px;
+    width: 640px;
+    margin-left: 360px;
+    margin-right: 200;
+
+   }
+
+   #titleBo{
+    border: dashed;
+    border-color: green;
+    border-width: 6px;
+    border-color: #5294ff;
+    margin-top: 28px;
+    background: #b5d1ff;
+   }
+
+   .abBobaBack{
+    border: solid;
+    border-color: paleturquoise;
+    background-color: paleturquoise;
+   }
+
+   body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHGIaB91YtlsWtlqQYvnHIIibE-Odt_EQEGyzrHZGqYBmF3Cs");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+   }
+
+   h1{
+    font-family: cursive;
+
+   }
+
+   .ahref1{
+    background-color: #00ff9d;
+    border-color: powderblue;
+    height: 20px;
+    width: 100px;
+
+   }
