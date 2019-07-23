@@ -9,31 +9,33 @@ var turn = 0;
 var win = false;
 
 function display_input(grid, num) {
-    if (win == false){
-        if (board[num] != "yellow" && board[num] != "red") {
-            if (turn == 1 && grid.style.backgroundColor != "yellow") {
-                grid.style.backgroundColor = "yellow";
-                turn = 0;
-                board[num] = "yellow";
-            } else if (turn == 0) {
-                grid.style.backgroundColor = "red";
-                turn = 1;
-                board[num] = "red";
-            } else if (turn == 0 && grid.style.backgroundColor != "red") {
-                grid.style.backgroundColor = "red";
-                turn = 1;
-                board[num] = "red";
-            } else {
-                grid.style.backgroundColor = "yellow";
-                turn = 0;
-                board[num] = "yellow";
+    if (win == false) {
+        if ( board[num] != "yellow" && board[num] != "red") {
+            if ( (num >= 35 && num <= 41) || board[num + 7] == "yellow" || board[num + 7] == "red") {
+                if (turn == 1 && grid.style.backgroundColor != "yellow") {
+                    grid.style.backgroundColor = "yellow";
+                    turn = 0;
+                    board[num] = "yellow";
+                } else if (turn == 0) {
+                    grid.style.backgroundColor = "red";
+                    turn = 1;
+                    board[num] = "red";
+                } else if (turn == 0 && grid.style.backgroundColor != "red") {
+                    grid.style.backgroundColor = "red";
+                    turn = 1;
+                    board[num] = "red";
+                } else {
+                    grid.style.backgroundColor = "yellow";
+                    turn = 0;
+                    board[num] = "yellow";
+                }
+                checkwin("yellow");
+                checkwin("red");
             }
-            checkwin("yellow");
-            checkwin("red");
         }
     }
     console.log(board);
-}   
+}
 
 function checkwin(player) {
     if (board[0] == player && board[1] == player && board[2] == player && board[3] == player) {
@@ -316,19 +318,19 @@ function checkwin(player) {
 }
 
 
-function displayMessage(player){
+function displayMessage(player) {
     message.innerHTML = player + " wins!! ";
 }
-   
-function resetgrid(){
+
+function resetgrid() {
     var message = document.querySelector("#message");
-    message.innerHTML="";
-    for (var i = 0; i < 42; i++){
+    message.innerHTML = "";
+    for (var i = 0; i < 42; i++) {
         board[i] = 0;
-        document.querySelector("#grid" + i).style.backgroundColor = "white"; 
-        
+        document.querySelector("#grid" + i).style.backgroundColor = "white";
+
     }
     turn = 0;
     win = false;
-    
+
 }
