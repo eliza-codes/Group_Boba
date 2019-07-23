@@ -10,7 +10,7 @@ var currentArtist = urlParams.get('artist');
 var madonna = ["../JukeBoxSongs/La Isla Bonita.mp3", "../JukeBoxSongs/Like a Virgin.mp3", "../JukeBoxSongs/Crazy for You.mp3", "../JukeBoxSongs/Take a Bow.mp3"];
 var madonnaTitles = ["La Isla Bonita", "Like a Virgin", "Crazy for You", "Take a Bow"];
 
-var lionelRichie = ["../JukeBoxSongs/LIONEL RICHIE - HELLO LYRICS.mp3", "../JukeBoxSongs/Say You, Say Me.mp3", "../JukeBoxSongs/Lionel Richie - You Are.mp3", "../JukeBoxSongs/Diana Ross & Lionel Richie Endless Love 1981.mp3"];
+var lionelRichie = ["../JukeBoxSongs/LIONEL RICHIE - HELLO LYRICS.1.mp3", "../JukeBoxSongs/Say You, Say Me.mp3", "../JukeBoxSongs/Lionel Richie - You Are.mp3", "../JukeBoxSongs/Diana Ross & Lionel Richie Endless Love 1981.mp3"];
 var lionelrichieSongs = ["Hello", "Say You, Say Me", "You Are", "Endless Love"];
 
 var michaelJackson = ["../JukeBoxSongs/Michael Jackson & Paul McCartney - Say Say Say [Audio HQ] HD.mp3", "../JukeBoxSongs/Billie Jean.mp3", "../JukeBoxSongs/Beat It.mp3","../JukeBoxSongs/Rock with You.mp3"];
