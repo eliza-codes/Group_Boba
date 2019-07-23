@@ -7,112 +7,112 @@ var currentArtist = urlParams.get('artist');
 
 //1980
 
-var madonna = ["../JukeBoxTest/La Isla Bonita.mp3", "../JukeBoxTest/Like a Virgin.mp3", "../JukeBoxTest/Crazy for You.mp3", "../JukeBoxTest/Take a Bow.mp3"];
+var madonna = ["../JukeBoxSongs/La Isla Bonita.mp3", "../JukeBoxSongs/Like a Virgin.mp3", "../JukeBoxSongs/Crazy for You.mp3", "../JukeBoxSongs/Take a Bow.mp3"];
 var madonnaTitles = ["La Isla Bonita", "Like a Virgin", "Crazy for You", "Take a Bow"];
 
-var lionelRichie = ["../JukeBoxTest/LIONEL RICHIE - HELLO LYRICS.mp3", "../JukeBoxTest/Say You, Say Me.mp3", "../JukeBoxTest/Lionel Richie - You Are.mp3", "../JukeBoxTest/Diana Ross & Lionel Richie Endless Love 1981.mp3"];
+var lionelRichie = ["../JukeBoxSongs/LIONEL RICHIE - HELLO LYRICS.mp3", "../JukeBoxSongs/Say You, Say Me.mp3", "../JukeBoxSongs/Lionel Richie - You Are.mp3", "../JukeBoxSongs/Diana Ross & Lionel Richie Endless Love 1981.mp3"];
 var lionelrichieSongs = ["Hello", "Say You, Say Me", "You Are", "Endless Love"];
 
-var michaelJackson = ["../JukeBoxTest/Michael Jackson & Paul McCartney - Say Say Say [Audio HQ] HD.mp3", "../JukeBoxTest/Billie Jean.mp3", "../JukeBoxTest/Beat It.mp3","../JukeBoxTest/Rock with You.mp3"];
+var michaelJackson = ["../JukeBoxSongs/Michael Jackson & Paul McCartney - Say Say Say [Audio HQ] HD.mp3", "../JukeBoxSongs/Billie Jean.mp3", "../JukeBoxSongs/Beat It.mp3","../JukeBoxSongs/Rock with You.mp3"];
 var michaeljacksonSongs = ["Say Say Say", "Billie Jean", "Beat It", "Rock With You"];
 
-var prince = ["../JukeBoxTest/When Doves Cry.mp3", "../JukeBoxTest/Kiss (45 Version).mp3", "../JukeBoxTest/Let's Go Crazy.mp3", "../JukeBoxTest/Cream.mp3"];
+var prince = ["../JukeBoxSongs/When Doves Cry.mp3", "../JukeBoxSongs/Kiss (45 Version).mp3", "../JukeBoxSongs/Let's Go Crazy.mp3", "../JukeBoxSongs/Cream.mp3"];
 var princeSongs = ["When Doves Cry", "Kiss", "Let's Go Crazy", "Cream"];
 
-var billyJoel = ["../JukeBoxTest/The Longest Time.mp3", "../JukeBoxTest/Billy Joel - It's Still Rock And Roll To Me (Audio).mp3", "../JukeBoxTest/We Didn't Start the Fire.mp3", "../JukeBoxTest/Uptown Girl.mp3"];
+var billyJoel = ["../JukeBoxSongs/The Longest Time.mp3", "../JukeBoxSongs/Billy Joel - It's Still Rock And Roll To Me (Audio).mp3", "../JukeBoxSongs/We Didn't Start the Fire.mp3", "../JukeBoxSongs/Uptown Girl.mp3"];
 var billyjoelSongs = ["Longest Time", "It's Still Rock and Roll to Me", "We Didn't Start The Fire", "Uptown Girl"];
 
 //1990
 
-var stevieWonder = ["../JukeBoxTest/I Just Called To Say I Love You.mp3", "../JukeBoxTest/Ebony And Ivory.mp3", "../JukeBoxTest/Dionne Warwick - That's What Friends Are For.mp3", "../JukeBoxTest/Part-Time Lover.mp3"];
+var stevieWonder = ["../JukeBoxSongs/I Just Called To Say I Love You.mp3", "../JukeBoxSongs/Ebony And Ivory.mp3", "../JukeBoxSongs/Dionne Warwick - That's What Friends Are For.mp3", "../JukeBoxSongs/Part-Time Lover.mp3"];
 var steviewonderSongs = ["I Just Called to Say I Love You", "Ebony and Ivory", "That's What Friends Are For", "Part-Time Lover"];
 
-var backstreet = ["../JukeBoxTest/I Want It That Way.mp3", "../JukeBoxTest/Backstreet Boys - Quit Playing Games (With My Heart) (Official Music Video).mp3", "../JukeBoxTest/Backstreet Boys - Everybody.mp3", "../JukeBoxTest/All I Have to Give.mp3"];
+var backstreet = ["../JukeBoxSongs/I Want It That Way.mp3", "../JukeBoxSongs/Backstreet Boys - Quit Playing Games (With My Heart) (Official Music Video).mp3", "../JukeBoxSongs/Backstreet Boys - Everybody.mp3", "../JukeBoxSongs/All I Have to Give.mp3"];
 var backstreetSongs = ["I Want it That Way", "Quit Playing Games (With My Heart)", "Everybody", "All I Have to Give"];
 
-var spiceGirls = ["../JukeBoxTest/Spice Girls - Spice - 1. Wannabe.mp3", "../JukeBoxTest/Say You'll Be There - Spice Girls (Spice).mp3", "../JukeBoxTest/Spice Up Your Life.mp3", "../JukeBoxTest/2 Become 1.mp3"];
+var spiceGirls = ["../JukeBoxSongs/Spice Girls - Spice - 1. Wannabe.mp3", "../JukeBoxSongs/Say You'll Be There - Spice Girls (Spice).mp3", "../JukeBoxSongs/Spice Up Your Life.mp3", "../JukeBoxSongs/2 Become 1.mp3"];
 var spicegirlsSongs = ["Wanna Be", "Say You'll Be There", "Spice Up Your Life", "2 Becomes 1"];
 
-var nsync = ["../JukeBoxTest/Nsync - Bye Bye Bye.mp3", "../JukeBoxTest/It's Gonna Be Me.mp3", "../JukeBoxTest/[God Must Have Spent] A Little More Time On You (Remix).mp3", "../JukeBoxTest/Nsync - This I Promise You.mp3"];
+var nsync = ["../JukeBoxSongs/Nsync - Bye Bye Bye.mp3", "../JukeBoxSongs/It's Gonna Be Me.mp3", "../JukeBoxSongs/[God Must Have Spent] A Little More Time On You (Remix).mp3", "../JukeBoxSongs/Nsync - This I Promise You.mp3"];
 var nsyncSongs = ["Bye Bye Bye", "It's Gonna Be Me", "(God Must Have Spent) A Little More Time On You", "This I Promise You"];
 
-var aceofBase = ["../JukeBoxTest/The Sign.mp3", "../JukeBoxTest/All That She Wants (12 Version).mp3", "../JukeBoxTest/Don't Turn Around.mp3", "../JukeBoxTest/Cruel Summer.mp3"];
+var aceofBase = ["../JukeBoxSongs/The Sign.mp3", "../JukeBoxSongs/All That She Wants (12 Version).mp3", "../JukeBoxSongs/Don't Turn Around.mp3", "../JukeBoxSongs/Cruel Summer.mp3"];
 var aceofbaseSongs = ["The Sign", "All That She Wants", "Don't Turn Around","Cruel Summer"];
 
 //2000
 
-var beyonce = ["../JukeBoxTest/Independent Women, Pt. 1.mp3", "../JukeBoxTest/Irreplaceable.mp3", "../JukeBoxTest/Beyoncé - Baby Boy.mp3", "../JukeBoxTest/Crazy In Love.mp3"];
+var beyonce = ["../JukeBoxSongs/Independent Women, Pt. 1.mp3", "../JukeBoxSongs/Irreplaceable.mp3", "../JukeBoxSongs/Beyoncé - Baby Boy.mp3", "../JukeBoxSongs/Crazy In Love.mp3"];
 var beyonceSongs = ["Independent Women", "Irreplaceable", "Baby Boy", "Crazy For You"];
 
-var mnm = ["../JukeBoxTest/Rap God.mp3", "../JukeBoxTest/The Real Slim Shady.mp3", "../JukeBoxTest/Stan.mp3", "../JukeBoxTest/Lose Yourself (Soundtrack Version).mp3"];
+var mnm = ["../JukeBoxSongs/Rap God.mp3", "../JukeBoxSongs/The Real Slim Shady.mp3", "../JukeBoxSongs/Stan.mp3", "../JukeBoxSongs/Lose Yourself (Soundtrack Version).mp3"];
 var mnmSongs = ["Rap God", "The Real Slim Shady", "Stan", "Lose Yourself"];
 
-var ladyGaga = ["../JukeBoxTest/Lady Gaga - Poker Face (Audio).mp3", "../JukeBoxTest/Lady Gaga - Bad Romance (Audio).mp3", "../JukeBoxTest/Lady Gaga - Born This Way (Audio).mp3", "../JukeBoxTest/Lady Gaga - Just Dance (Audio).mp3"];
+var ladyGaga = ["../JukeBoxSongs/Lady Gaga - Poker Face (Audio).mp3", "../JukeBoxSongs/Lady Gaga - Bad Romance (Audio).mp3", "../JukeBoxSongs/Lady Gaga - Born This Way (Audio).mp3", "../JukeBoxSongs/Lady Gaga - Just Dance (Audio).mp3"];
 var ladygagaSongs = ["Poker Face", "Bad Romance", "Born This Way", "Just Dance"];
 
-var coldplay = ["../JukeBoxTest/Shiver - Coldplay.mp3", "../JukeBoxTest/Parachutes.mp3", "../JukeBoxTest/Sparks.mp3", "../JukeBoxTest/We Never Change.mp3"];
+var coldplay = ["../JukeBoxSongs/Shiver - Coldplay.mp3", "../JukeBoxSongs/Parachutes.mp3", "../JukeBoxSongs/Sparks.mp3", "../JukeBoxSongs/We Never Change.mp3"];
 var coldplaySongs = ["Shiver", "Parachutes", "Sparks", "We Never Change"];
 
-var usher = ["../JukeBoxTest/Usher - U got it bad.mp3", "../JukeBoxTest/Yeah!.mp3", "../JukeBoxTest/OMG - Usher.mp3", "../JukeBoxTest/Burn (Confession Special Edition Version).mp3"];
+var usher = ["../JukeBoxSongs/Usher - U got it bad.mp3", "../JukeBoxSongs/Yeah!.mp3", "../JukeBoxSongs/OMG - Usher.mp3", "../JukeBoxSongs/Burn (Confession Special Edition Version).mp3"];
 var usherSongs = ["U Got It Bad", "Yeah!", "OMG", "Burn"];
 
 //2001
 
-var lifehouse = ["../JukeBoxTest/Whatever It Takes.mp3", "../JukeBoxTest/Lifehouse - First Time.mp3", "../JukeBoxTest/Lifehouse - Hanging By A Moment (Official Video).mp3", "../JukeBoxTest/Lifehouse - You and Me (Audio).mp3"];
+var lifehouse = ["../JukeBoxSongs/Whatever It Takes.mp3", "../JukeBoxSongs/Lifehouse - First Time.mp3", "../JukeBoxSongs/Lifehouse - Hanging By A Moment (Official Video).mp3", "../JukeBoxSongs/Lifehouse - You and Me (Audio).mp3"];
 var lifehouseSongs = ["Whatever It Takes", "First Time", "Hanging By A Moment", "You And Me"];
 
-var alicia = ["../JukeBoxTest/No One.mp3", "../JukeBoxTest/Gangsta Lovin' (Edited).mp3", "../JukeBoxTest/Fallin'.mp3", "../JukeBoxTest/Empire State of Mind (Part II) Broken Down.mp3"];
+var alicia = ["../JukeBoxSongs/No One.mp3", "../JukeBoxSongs/Gangsta Lovin' (Edited).mp3", "../JukeBoxSongs/Fallin'.mp3", "../JukeBoxSongs/Empire State of Mind (Part II) Broken Down.mp3"];
 var aliciaSongs = ["No One", "Gangsta Lovin", "Fallin", "Empire State of Mind"];
 
-var janet = ["../JukeBoxTest/If.mp3", "../JukeBoxTest/Janet Jackson - Black Cat.mp3", "../JukeBoxTest/What Have You Done For Me Lately.mp3", "../JukeBoxTest/Miss You Much.mp3"];
+var janet = ["../JukeBoxSongs/If.mp3", "../JukeBoxSongs/Janet Jackson - Black Cat.mp3", "../JukeBoxSongs/What Have You Done For Me Lately.mp3", "../JukeBoxSongs/Miss You Much.mp3"];
 var janetSongs = ["If", "Black Cat", "What Have You Done For Me Lately", "Miss You Much"];
 
-var train = ["../JukeBoxTest/Train - Calling All Angels.mp3", "../JukeBoxTest/Train - Drive By.mp3", "../JukeBoxTest/Train - Drops Of Jupiter.mp3", "../JukeBoxTest/Train - Hey, Soul Sister (Official Music Video).mp3"];
+var train = ["../JukeBoxSongs/Train - Calling All Angels.mp3", "../JukeBoxSongs/Train - Drive By.mp3", "../JukeBoxSongs/Train - Drops Of Jupiter.mp3", "../JukeBoxSongs/Train - Hey, Soul Sister (Official Music Video).mp3"];
 var trainSongs = ["Calling All Angles", "Drive By", "Drops of Jupiter", "Hey Soul Sister"];
 
-var jennifer = ["../JukeBoxTest/Jennifer Lopez - Ain't It Funny (Alt Version).mp3", "../JukeBoxTest/Secretly.mp3", "../JukeBoxTest/Dance With Me.mp3", "../JukeBoxTest/I'm Gonna Be Alright.mp3"];
+var jennifer = ["../JukeBoxSongs/Jennifer Lopez - Ain't It Funny (Alt Version).mp3", "../JukeBoxSongs/Secretly.mp3", "../JukeBoxSongs/Dance With Me.mp3", "../JukeBoxSongs/I'm Gonna Be Alright.mp3"];
 var jenniferSongs = ["Ain't It Funny", "Secretly", "Dance With Me", "I'm Gonna Be Alright"];
 
 //2002
 
-var nickel = ["../JukeBoxTest/How You Remind Me.mp3", "../JukeBoxTest/Nickelback - Photograph [Audio].mp3", "../JukeBoxTest/Figured You Out.mp3", "../JukeBoxTest/Someday.mp3"];
+var nickel = ["../JukeBoxSongs/How You Remind Me.mp3", "../JukeBoxSongs/Nickelback - Photograph [Audio].mp3", "../JukeBoxSongs/Figured You Out.mp3", "../JukeBoxSongs/Someday.mp3"];
 var nickelSongs = ["How You Remind Me", "Photograph", "Figured You Out", "Someday"];
 
-var ashanti = ["../JukeBoxTest/Foolish.mp3", "../JukeBoxTest/What's Luv (feat. Ashanti).mp3", "../JukeBoxTest/Rock Wit U (Awww Baby).mp3", "../JukeBoxTest/Ja Rule (Mesmerize) ft.Ashanti (HQ).mp3"];
+var ashanti = ["../JukeBoxSongs/Foolish.mp3", "../JukeBoxSongs/What's Luv (feat. Ashanti).mp3", "../JukeBoxSongs/Rock Wit U (Awww Baby).mp3", "../JukeBoxSongs/Ja Rule (Mesmerize) ft.Ashanti (HQ).mp3"];
 var ashantiSongs = ["Foolish", "What's Luv", "Rock Wit U", "Mesmerize"];
 
-var nelly = ["../JukeBoxTest/Where the Party At.mp3", "../JukeBoxTest/Dilemma.mp3", "../JukeBoxTest/Hot In Herre.mp3", "../JukeBoxTest/Call On Me - Janet Jackson feat. Nelly.mp3"];
+var nelly = ["../JukeBoxSongs/Where the Party At.mp3", "../JukeBoxSongs/Dilemma.mp3", "../JukeBoxSongs/Hot In Herre.mp3", "../JukeBoxSongs/Call On Me - Janet Jackson feat. Nelly.mp3"];
 var nellySongs = ["Where The Party At", "Dilemma", "Hot in Herre", "Call On Me"];
 
-var calling = ["../JukeBoxTest/Wherever You Will Go.mp3", "../JukeBoxTest/The Calling - Our Lives (VIDEO).mp3", "../JukeBoxTest/The Calling - Anything (VIDEO).mp3", "../JukeBoxTest/The Calling - Adrienne.mp3"];
+var calling = ["../JukeBoxSongs/Wherever You Will Go.mp3", "../JukeBoxSongs/The Calling - Our Lives (VIDEO).mp3", "../JukeBoxSongs/The Calling - Anything (VIDEO).mp3", "../JukeBoxSongs/The Calling - Adrienne.mp3"];
 var callingSongs = ["Wherever You Will Go", "Our Lives", "Anything", "Adrienne"];
 
-var vanessa = ["../JukeBoxTest/A Thousand Miles (Interlude).mp3", "../JukeBoxTest/Vanessa Carlton - Ordinary Day.mp3", "../JukeBoxTest/White Houses.mp3", "../JukeBoxTest/Big Yellow Taxi.mp3"];
+var vanessa = ["../JukeBoxSongs/A Thousand Miles (Interlude).mp3", "../JukeBoxSongs/Vanessa Carlton - Ordinary Day.mp3", "../JukeBoxSongs/White Houses.mp3", "../JukeBoxSongs/Big Yellow Taxi.mp3"];
 var vanessaSongs = ["A Thousand Miles", "Ordinary Day", "White Houses", "Big Yellow Taxi"];
 
 //2003
 
-var cent = ["../JukeBoxTest/50 Cent - In Da Club (Squeaky Clean Version).mp3", "../JukeBoxTest/21 Questions.mp3", "../JukeBoxTest/Candy Shop.mp3", "../JukeBoxTest/Eminem Crack a Bottle (feat. Dr. Dre & 50 Cent) [CLEAN].mp3"];
+var cent = ["../JukeBoxSongs/50 Cent - In Da Club (Squeaky Clean Version).mp3", "../JukeBoxSongs/21 Questions.mp3", "../JukeBoxSongs/Candy Shop.mp3", "../JukeBoxSongs/Eminem Crack a Bottle (feat. Dr. Dre & 50 Cent) [CLEAN].mp3"];
 var centSong = ["In Da Club", "21 Questions", "Candy Shop", "Crack A Bottle"];
 
-var kelly = ["../JukeBoxTest/I'm Your Angel.mp3", "../JukeBoxTest/I Believe I Can Fly.mp3", "../JukeBoxTest/Ignition.mp3", "../JukeBoxTest/Satisfy You.mp3"];
+var kelly = ["../JukeBoxSongs/I'm Your Angel.mp3", "../JukeBoxSongs/I Believe I Can Fly.mp3", "../JukeBoxSongs/Ignition.mp3", "../JukeBoxSongs/Satisfy You.mp3"];
 var kellySongs = ["I'm Your Angel", "I Believe I Can Fly", "Ignition", "Satisfy You"];
 
-var sean = ["../JukeBoxTest/Sia - Cheap Thrills (feat Sean Paul) [with download link].mp3", "../JukeBoxTest/Get Busy.mp3", "../JukeBoxTest/Temperature.mp3", "../JukeBoxTest/Baby Boy (feat. Beyoncé).mp3"];
+var sean = ["../JukeBoxSongs/Sia - Cheap Thrills (feat Sean Paul) [with download link].mp3", "../JukeBoxSongs/Get Busy.mp3", "../JukeBoxSongs/Temperature.mp3", "../JukeBoxSongs/Baby Boy (feat. Beyoncé).mp3"];
 var seanSongs = ["Cheap Thrills ft. Sean Paul", "Get Busy", "Temperature", "Baby Boy ft. Beyoncé"];
 
-var doors = ["../JukeBoxTest/Kryptonite.mp3", "../JukeBoxTest/When I'm Gone.mp3", "../JukeBoxTest/Here Without You.mp3", "../JukeBoxTest/Let Me Go.mp3"];
+var doors = ["../JukeBoxSongs/Kryptonite.mp3", "../JukeBoxSongs/When I'm Gone.mp3", "../JukeBoxSongs/Here Without You.mp3", "../JukeBoxSongs/Let Me Go.mp3"];
 var doorsSongs = ["Kryptonite", "When I'm Gone", "Here Without You", "Let Me Go"];
 
-var matchBox = ["../JukeBoxTest/Bent.mp3", "../JukeBoxTest/Unwell.mp3", "../JukeBoxTest/If You're Gone.mp3", "../JukeBoxTest/How Far We've Come (Soundtrack Version).mp3"];
+var matchBox = ["../JukeBoxSongs/Bent.mp3", "../JukeBoxSongs/Unwell.mp3", "../JukeBoxSongs/If You're Gone.mp3", "../JukeBoxSongs/How Far We've Come (Soundtrack Version).mp3"];
 var matchboxSongs = ["Bent", "Unwell", "If You're Gone", "How Far We've Come"];
 
 //2004
 
-var spears = ["../JukeBoxTest/Sometimes.mp3", "../JukeBoxTest/Lucky (Remastered).mp3", "../JukeBoxTest/I'm a Slave 4 U (Remastered).mp3", "../JukeBoxTest/Pretty Girls.mp3"];
+var spears = ["../JukeBoxSongs/Sometimes.mp3", "../JukeBoxSongs/Lucky (Remastered).mp3", "../JukeBoxSongs/I'm a Slave 4 U (Remastered).mp3", "../JukeBoxSongs/Pretty Girls.mp3"];
 var spearsSongs = ["Sometimes", "Lucky", "I'm A Slave 4 U", "Pretty Girls"];
 
-var maroon = ["../JukeBoxTest/Payphone.mp3", "../JukeBoxTest/Sugar.mp3", "../JukeBoxTest/One More Night.mp3", "../JukeBoxTest/Maroon 5 - Moves Like Jagger (Clean Version).mp3"];
+var maroon = ["../JukeBoxSongs/Payphone.mp3", "../JukeBoxSongs/Sugar.mp3", "../JukeBoxSongs/One More Night.mp3", "../JukeBoxSongs/Maroon 5 - Moves Like Jagger (Clean Version).mp3"];
 var maroonSongs = ["Payphone", "Sugar", "One More Night", "Moves Like Jagger"];
 
 var avril = ["../JukeBoxSongs/Complicated.mp3", "../JukeBoxSongs/I'm with You.mp3", "../JukeBoxSongs/My Happy Ending.mp3", "../JukeBoxSongs/Sk8er Boi.mp3"];
