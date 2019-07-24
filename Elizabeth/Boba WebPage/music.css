@@ -12,8 +12,8 @@
     width: 350px;
     height: 25px;
     text-align: center;
-    position: fixed;
-    top: 120px;
+    position: absolute;
+    top: 180px;
 
 }
 
@@ -94,13 +94,13 @@ body{
 .wilsButt{
     border: solid;
     border-radius: 10px;
-    border-color: #f59542;
-    background-color: #ffce6b;
+    border-color: #5900ff;
+    background-color: #d0b8ff;
     width: 350px;
-    height: 25px;
+    height: 40px;
     text-align: center;
-
-    left: 300px;
-    margin-top: 200px;
-    top: 200px;
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 130;
 }
