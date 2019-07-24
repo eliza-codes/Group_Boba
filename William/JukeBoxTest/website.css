@@ -715,3 +715,10 @@ body {
     width: 300px;
 
 } */
+
+.backgroundStart{
+    background: url('https://cbsetoday.com/wp-content/uploads/2018/09/paint-splatter-wallpaper-04.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
