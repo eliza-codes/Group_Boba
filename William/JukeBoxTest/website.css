@@ -60,7 +60,7 @@ body {
     margin: 10px 30px;
     text-align: center;
     color: lightblue;
-    background-color: pink;
+    background-color: rgb(188, 255, 157);
     border-radius: 25px;
     float: right;
 
@@ -461,9 +461,12 @@ body {
     background-color: lightblue;
     border-radius: 20px;
     width: 200px;
-    margin: 150px 585px;
-    padding: 20px;
-    text-decoration-color: burlywood;
+    margin: 100px 585px;
+    padding: 20px 30px;
+    cursor: pointer;
+    display: inline-block;
+    /* text-decoration-color: burlywood; */
+    text-decoration: bold;
 
 }
 
@@ -474,9 +477,11 @@ body {
     background-color: lightgreen;
     border-radius: 20px;
     width: 200px;
-    padding: 20px;
-    margin: 150px 585px;
-    text-decoration-color: burlywood;
+    padding: 20px 30px;
+    margin: 100px 575px;
+    cursor: pointer;
+    display: inline-block;
+    /* text-decoration-color: burlywood; */
 
 }
 
@@ -690,8 +695,9 @@ body {
 
     background-color: rgb(41, 38, 38);
     height: 55px;
-    width: 1430px;
+    width: 1420px;
     margin: 0px 0px;
+    border-radius: 20px;
 
 }
 
