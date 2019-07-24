@@ -43,11 +43,12 @@ body {
     width: 100px;
     margin: 10px 30px;
     text-align: center;
-    color: tan;
+    color: black;
     background-color: rgb(188, 255, 157);
     padding: 4px;
     border-radius: 25px;
     float: right;
+    text-decoration: none;
 
 }
 
@@ -59,10 +60,11 @@ body {
     width: 100px;
     margin: 10px 30px;
     text-align: center;
-    color: lightblue;
+    color: black;
     background-color: rgb(188, 255, 157);
     border-radius: 25px;
     float: right;
+    text-decoration: none;
 
 }
 
@@ -144,12 +146,13 @@ body {
     width: 100px;
     margin: 5px 290px;
     text-align: center;
-    color: lightblue;
+    color: lightgreen;
     background-color: pink;
     border-radius: 25px;
     float: left;
     box-align: center;
     padding: 5px;
+    text-decoration: none;
 
 }
 
@@ -161,12 +164,13 @@ body {
     width: 100px;
     margin: 5px 290px;
     text-align: center;
-    color: lightblue;
+    color: lightgreen;
     background-color: pink;
     border-radius: 25px;
     float: left;
     box-align: center;
     padding: 5px;
+    text-decoration: none;
 
 }
 
@@ -238,11 +242,12 @@ body {
     width: 200px;
     margin: 10px 30px;
     text-align: center;
-    color: tan;
+    color: black;
     background-color: pink;
     padding: 4px;
     border-radius: 25px;
     float: right;
+    text-decoration: none;
 
 }
 
@@ -254,10 +259,11 @@ body {
     width: 200px;
     margin: 10px 30px;
     text-align: center;
-    color: lightblue;
+    color: black;
     background-color: pink;
     border-radius: 25px;
     float: right;
+    text-decoration: none;
 
 }
 
@@ -461,7 +467,7 @@ body {
     background-color: lightblue;
     border-radius: 20px;
     width: 200px;
-    margin: 100px 585px;
+    margin: 100px 575px;
     padding: 20px 30px;
     cursor: pointer;
     display: inline-block;
@@ -654,10 +660,11 @@ body {
 
 .artisttrect {
 
-    margin: 1px 210px;
+    margin: 1px 245px;
     border-radius: 50px;
+    border: solid white 3px;
     height: 250px;
-    width: 400px;
+    width: 320px;
 
 }
 
