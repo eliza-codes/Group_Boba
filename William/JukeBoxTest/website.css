@@ -456,7 +456,7 @@ body {
 .welcome {
 
     text-align: center;
-    margin: 250px 250px;
+    margin: 250px 200px;
 
 }
 
@@ -467,12 +467,11 @@ body {
     background-color: lightblue;
     border-radius: 20px;
     width: 200px;
-    margin: 100px 575px;
-    padding: 20px 30px;
+    margin: 0px 575px;
+    padding: 20px 15px;
     cursor: pointer;
     display: inline-block;
-    /* text-decoration-color: burlywood; */
-    text-decoration: bold;
+    text-decoration: none;
 
 }
 
@@ -483,12 +482,11 @@ body {
     background-color: lightgreen;
     border-radius: 20px;
     width: 200px;
-    padding: 20px 30px;
-    margin: 100px 575px;
+    padding: 20px 15px;
+    margin: 0px 575px;
     cursor: pointer;
     display: inline-block;
-    /* text-decoration-color: burlywood; */
-
+    
 }
 
 .image {
@@ -708,17 +706,51 @@ body {
 
 }
 
-/* .stevie {
-
-    margin: 1px 20px;
-    height: 200px;
-    width: 300px;
-
-} */
-
 .backgroundStart{
+   
     background: url('https://cbsetoday.com/wp-content/uploads/2018/09/paint-splatter-wallpaper-04.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 750px;
+
+}
+
+.demobackButt{
+    
+    border: 5px black solid;
+    background-color: paleturquoise;
+    color: rgb(185, 185, 59);
+    text-decoration: none; 
+    margin: 15px 10px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.bts {
+
+    border: 5px black solid;
+    padding: 10px;
+    color: darkblue;
+    background-color: lightblue;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 10px 605px;
+    
+
+}
+
+.bts:hover {
+
+    border: 5px gold solid;
+    padding: 10px;
+    color: darkblue;
+    background-color: lightblue;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 10px 605px;
+    width: 500px;
+    height: 500px; 
+
 }
