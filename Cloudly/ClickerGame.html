@@ -5,18 +5,20 @@
     <link rel="stylesheet" type="text/css" href="Demo.css">
 </head>
 <div id="background"></div>
-    <body background="http://www.annawan226.org/counseling/wp-content/uploads/2017/01/clouds-background.png" height="2000px" width="2000px"></body>
-</div>
+    <body class="clickbody" background="http://www.annawan226.org/counseling/wp-content/uploads/2017/01/clouds-background.png" height="2000px" width="2000px">
+        
+    </div>
     <h1><center><p style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:50px">CLICKER GAME!</p></center></h1>
+        
         <div id="lives">
             <h1 id="livecount"></h1>
         </div>
         <div id="score">
             <h1 id="scorecount"></h1>
         </div>
-        
-        
-
-    <script src="ClickerGame.js"></script>
+        <canvas id="myCanvas" resize></canvas>
+    <script src="ClickerGame.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.2/paper-full.min.js"></script>
+    <script type="text/paperscript"  canvas="myCanvas" src="ClickerGame.js" > </script> 
 </body>
 </html>
