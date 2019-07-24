@@ -471,8 +471,7 @@ body {
     padding: 20px 30px;
     cursor: pointer;
     display: inline-block;
-    /* text-decoration-color: burlywood; */
-    text-decoration: bold;
+    text-decoration: none;
 
 }
 
@@ -487,8 +486,7 @@ body {
     margin: 100px 575px;
     cursor: pointer;
     display: inline-block;
-    /* text-decoration-color: burlywood; */
-
+    
 }
 
 .image {
