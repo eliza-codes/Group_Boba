@@ -30,12 +30,44 @@ function onMouseDown(event){
 var boba = 10;
 
 var path = new Path.Circle({
-	center: [0, 0],
+	center: [60, 60],
 	radius: 30,
 	fillColor: "#000000",
 	strokeColor: 'black'
 });
 
+var c1 = new Path.Circle({
+	center: [100, 100],
+	radius: 30,
+	fillColor: "#000000",
+	strokeColor: 'black'
+});
+
+var c2 = new Path.Circle({
+	center: [200, 200],
+	radius: 30,
+	fillColor: "#000000",
+	strokeColor: 'black'
+});
+
+function onFrame(event) {
+	
+		path.position.y += path.bounds.height / 20;
+		if (path.bounds.top > view.size.height) {
+			path.position.y = -path.bounds.height;
+		}
+		c1.position.y += c1.bounds.height / 20;
+		if (c1.bounds.top > view.size.height) {
+			c1.position.y = -c1.bounds.height;
+		}
+		c2.position.y += c2.bounds.height / 20;
+		if (c2.bounds.top > view.size.height) {
+			c2.position.y = -c2.bounds.height;
+		}
+} 
+
+
+/*
 var symbol = new Symbol(path);
 
 
@@ -57,7 +89,7 @@ function onFrame(event) {
 		}
 	}
 } 
-
+*/
 
 
 
