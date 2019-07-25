@@ -50,6 +50,8 @@
     border: solid;
     border-color: paleturquoise;
     background-color: paleturquoise;
+    height: 30px;
+    width: 50px;
    }
 
    body{
