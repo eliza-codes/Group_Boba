@@ -148,7 +148,7 @@ body {
     position: center;
     text-decoration: underline;
     width: 100px;
-    margin: 5px 290px;
+    margin: 0px 290px;
     text-align: center;
     color: rgb(38, 57, 141);
     background-color: pink;
@@ -166,7 +166,7 @@ body {
     position: center;
     text-decoration: underline;
     width: 100px;
-    margin: 5px 290px;
+    margin: 0px 290px;
     text-align: center;
     color: rgb(136, 157, 252);
     background-color: pink;
@@ -181,13 +181,28 @@ body {
 .century {
 
     text-align: center;
-
+    padding: 20px;
+    margin: 15px 450px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: solid white 5px;
+ 
 }
 
 .centuryy {
 
+    /* text-align: center; */
+    display: block;
     text-align: center;
-    margin: 100px 100px;
+    padding: 20px;
+    margin: 100px 450px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: solid white 5px;
 
 }
 
@@ -228,6 +243,40 @@ body {
     text-decoration: none;
     width: 100px;
     margin: 10px 30px;
+    text-align: center;
+    color: rgb(136, 157, 252);
+    background-color: pink;
+    border-radius: 25px;
+    float: left;
+    box-align: center;
+    padding: 5px;
+
+}
+
+.afterr {
+
+    border: white solid 3px;
+    position: relative;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px 120px;
+    text-align: center;
+    color: rgb(38, 57, 141);
+    background-color: pink;
+    border-radius: 25px;
+    float: left;
+    box-align: center;
+    padding: 5px;
+
+}
+
+.afterr:hover {
+
+    border: brown solid 3px;
+    position: relative;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px 120px;
     text-align: center;
     color: rgb(136, 157, 252);
     background-color: pink;
@@ -764,6 +813,7 @@ body {
     border: solid;
     border-color: paleturquoise;
     background-color: paleturquoise;
+    text-decoration: none;
     padding: 10px 30px;
 
 }
@@ -806,7 +856,7 @@ body {
     background-color: lightblue;
     text-decoration: none;
     border-radius: 20px;
-    margin: 30px 545px;
+    margin: 0px 545px;
     display: block;
     width: 300px;
     height: 40px; 
