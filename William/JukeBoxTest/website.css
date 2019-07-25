@@ -761,17 +761,14 @@ body {
 
 .demobackButt {
     
-    border: 5px black solid;
+    border: solid;
+    border-color: paleturquoise;
     background-color: paleturquoise;
-    color: rgb(185, 185, 59);
-    text-decoration: none; 
-    margin: 15px 10px;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 10px 30px;
 
 }
 
-.demobackButt:hover {
+/*.demobackButt:hover {
     
     border: 5px goldenrod solid;
     background-color: paleturquoise;
@@ -781,7 +778,7 @@ body {
     padding: 10px;
     border-radius: 15px;
 
-}
+}*/
 
 .bts {
 
