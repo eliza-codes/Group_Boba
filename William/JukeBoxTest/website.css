@@ -43,7 +43,7 @@ body {
     width: 100px;
     margin: 10px 30px;
     text-align: center;
-    color: black;
+    color: rgb(54, 133, 71);
     background-color: rgb(188, 255, 157);
     padding: 4px;
     border-radius: 25px;
@@ -60,7 +60,7 @@ body {
     width: 100px;
     margin: 10px 30px;
     text-align: center;
-    color: black;
+    color: rgb(112, 65, 223);
     background-color: rgb(188, 255, 157);
     border-radius: 25px;
     float: right;
@@ -104,8 +104,11 @@ body {
 .desc {
 
     text-align: center;
-    padding: 5px;
+    padding: 50px;
     margin: 30px 30px;
+    border: black solid 5px;
+    background-color: white;
+    border-radius: 25px;
 
 }
 
@@ -243,7 +246,7 @@ body {
     width: 200px;
     margin: 10px 30px;
     text-align: center;
-    color: black;
+    color: rgb(139, 109, 196);
     background-color: pink;
     padding: 4px;
     border-radius: 25px;
@@ -260,7 +263,7 @@ body {
     width: 200px;
     margin: 10px 30px;
     text-align: center;
-    color: black;
+    color: rgb(0, 149, 168);
     background-color: pink;
     border-radius: 25px;
     float: right;
@@ -476,8 +479,15 @@ body {
 
 .welcome {
 
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 250px 390px;
+    display: block;
+    background-color: rgb(241, 212, 172);
+    padding: 25px;
+    border-radius: 20px;
+    border: solid black 5px;
     text-align: center;
-    margin: 250px 200px;
 
 }
 
@@ -485,10 +495,10 @@ body {
 
     text-align: center;
     border: 3px solid black;
-    background-color: lightblue;
+    background-color: rgb(241, 212, 172);
     border-radius: 20px;
     width: 200px;
-    margin: 0px 575px;
+    margin: 0px 590px;
     padding: 20px 15px;
     cursor: pointer;
     display: inline-block;
@@ -500,11 +510,11 @@ body {
 
     text-align: center;
     border: 3px solid black;
-    background-color: lightgreen;
+    background-color: rgb(210, 172, 241);
     border-radius: 20px;
     width: 200px;
     padding: 20px 15px;
-    margin: 0px 575px;
+    margin: 0px 590px;
     cursor: pointer;
     display: inline-block;
     
@@ -584,17 +594,29 @@ body {
 
 .favmus {
 
-    margin: 30px 70px;
-    /* margin: 25px 40px; */
+    margin: 0px 70px;
     border-radius: 25px;
     border: solid 4px black;
     width: 560px; 
     height: 150px;
     text-align: center;
-    /* padding: 20px; */
     display: inline-block;
     background-color: lightgreen;
     
+}
+
+.favmusc {
+
+    margin: 50px 430px;
+    border-radius: 25px;
+    display: block;
+    border: solid 4px black;
+    width: 560px; 
+    height: 150px;
+    text-align: center;
+    display: inline-block;
+    background-color: lightgreen;
+
 }
 
 .michael {
@@ -760,14 +782,14 @@ body {
 
 .bts {
 
-    border: 5px black solid;
+    border: 5px white solid;
     padding: 10px;
     color: darkblue;
     text-align: center;
     background-color: lightblue;
     text-decoration: none;
     border-radius: 20px;
-    margin: 10px 545px;
+    margin: 0px 545px;
     display: block;
     width: 300px;
     height: 40px; 
@@ -777,14 +799,14 @@ body {
 
 .bts:hover {
 
-    border: 5px gold solid;
+    border: 5px darkblue solid;
     padding: 10px;
-    color: darkblue;
+    color: white;
     text-align: center;
     background-color: lightblue;
     text-decoration: none;
     border-radius: 20px;
-    margin: 10px 545px;
+    margin: 30px 545px;
     display: block;
     width: 300px;
     height: 40px; 
