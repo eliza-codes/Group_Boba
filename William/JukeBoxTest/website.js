@@ -385,7 +385,7 @@ var djSongs = ["You Stay", "Higher ft. Nipsey Hussle and John Legend", "Holy Gro
 if (currentArtist == "lionelRichie") {
 
     document.querySelector("title").innerHTML = "Lionel Richie";
-    document.querySelector(".back").innerHTML = "<a href = 'eight.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eight.html");
     document.querySelector(".title").innerHTML = "Lionel Richie";
     document.querySelector(".century").innerHTML = "Lionel Richie's Hits";
 
@@ -425,7 +425,7 @@ if (currentArtist == "lionelRichie") {
 if (currentArtist == "madonna") {
 
     document.querySelector("title").innerHTML = "Madonna";
-    document.querySelector(".back").innerHTML = "<a href = 'eight.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eight.html");
     document.querySelector(".title").innerHTML = "Madonna";
     document.querySelector(".century").innerHTML = "Madonna's Hits";
 
@@ -464,7 +464,7 @@ if (currentArtist == "madonna") {
 if (currentArtist == "michaelJackson") {
 
     document.querySelector("title").innerHTML = "Michael Jackson";
-    document.querySelector(".back").innerHTML = "<a href = 'eight.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eight.html");
     document.querySelector(".title").innerHTML = "Michael Jackson";
     document.querySelector(".century").innerHTML = "Michael Jackson's Hits";
 
@@ -503,7 +503,7 @@ if (currentArtist == "michaelJackson") {
 if (currentArtist == "prince") {
 
     document.querySelector("title").innerHTML = "Prince";
-    document.querySelector(".back").innerHTML = "<a href = 'eight.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eight.html");
     document.querySelector(".title").innerHTML = "Prince";
     document.querySelector(".century").innerHTML = "Prince's Hits";
 
@@ -542,7 +542,7 @@ if (currentArtist == "prince") {
 if (currentArtist == "billyJoel") {
 
     document.querySelector("title").innerHTML = "Billy Joel";
-    document.querySelector(".back").innerHTML = "<a href = 'eight.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eight.html");
     document.querySelector(".title").innerHTML = "Billy Joel";
     document.querySelector(".century").innerHTML = "Billy Joel's Hits";
 
@@ -582,7 +582,7 @@ if (currentArtist == "billyJoel") {
 if (currentArtist == "stevieWonder") {
 
     document.querySelector("title").innerHTML = "Stevie Wonder";
-    document.querySelector(".back").innerHTML = "<a href = 'nine.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nine.html");
     document.querySelector(".title").innerHTML = "Stevie Wonder";
     document.querySelector(".century").innerHTML = "Stevie Wonder's Hits";
 
@@ -621,7 +621,7 @@ if (currentArtist == "stevieWonder") {
 if (currentArtist == "backstreet") {
 
     document.querySelector("title").innerHTML = "Backstreet Boys";
-    document.querySelector(".back").innerHTML = "<a href = 'nine.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nine.html");
     document.querySelector(".title").innerHTML = "Backstreet Boys";
     document.querySelector(".century").innerHTML = "Backstreet Boys' Hits";
 
@@ -660,7 +660,7 @@ if (currentArtist == "backstreet") {
 if (currentArtist == "spiceGirls") {
 
     document.querySelector("title").innerHTML = "Spice Girls";
-    document.querySelector(".back").innerHTML = "<a href = 'nine.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nine.html");
     document.querySelector(".title").innerHTML = "Spice Girls";
     document.querySelector(".century").innerHTML = "Spice Girls' Hits";
 
@@ -699,7 +699,7 @@ if (currentArtist == "spiceGirls") {
 if (currentArtist == "nsync") {
 
     document.querySelector("title").innerHTML = "NSYNC";
-    document.querySelector(".back").innerHTML = "<a href = 'nine.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nine.html");
     document.querySelector(".title").innerHTML = "NSYNC";
     document.querySelector(".century").innerHTML = "NSYNC's Hits";
 
@@ -738,7 +738,7 @@ if (currentArtist == "nsync") {
 if (currentArtist == "aceofBase") {
 
     document.querySelector("title").innerHTML = "Ace of Base";
-    document.querySelector(".back").innerHTML = "<a href = 'nine.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nine.html");
     document.querySelector(".title").innerHTML = "Ace of Base";
     document.querySelector(".century").innerHTML = "Ace of Base's Hits";
 
@@ -779,7 +779,7 @@ if (currentArtist == "aceofBase") {
 if (currentArtist == "beyonce") {
 
     document.querySelector("title").innerHTML = "Beyonce";
-    document.querySelector(".back").innerHTML = "<a href = 'twothousand.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twothousand.html");
     document.querySelector(".title").innerHTML = "Beyonce";
     document.querySelector(".century").innerHTML = "Beyonce's Hits";
 
@@ -818,7 +818,7 @@ if (currentArtist == "beyonce") {
 if (currentArtist == "mnm") {
 
     document.querySelector("title").innerHTML = "Eminem";
-    document.querySelector(".back").innerHTML = "<a href = 'twothousand.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twothousand.html");
     document.querySelector(".title").innerHTML = "Eminem";
     document.querySelector(".century").innerHTML = "Eminem's Hits";
 
@@ -857,7 +857,7 @@ if (currentArtist == "mnm") {
 if (currentArtist == "ladyGaga") {
 
     document.querySelector("title").innerHTML = "Lady Gaga";
-    document.querySelector(".back").innerHTML = "<a href = 'twothousand.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twothousand.html");
     document.querySelector(".title").innerHTML = "Lady Gaga";
     document.querySelector(".century").innerHTML = "Lady Gaga's Hits";
 
@@ -896,7 +896,7 @@ if (currentArtist == "ladyGaga") {
 if (currentArtist == "coldplay") {
 
     document.querySelector("title").innerHTML = "Coldplay";
-    document.querySelector(".back").innerHTML = "<a href = 'twothousand.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twothousand.html");
     document.querySelector(".title").innerHTML = "Coldplay";
     document.querySelector(".century").innerHTML = "Coldplay's Hits";
 
@@ -935,7 +935,7 @@ if (currentArtist == "coldplay") {
 if (currentArtist == "usher") {
 
     document.querySelector("title").innerHTML = "Usher";
-    document.querySelector(".back").innerHTML = "<a href = 'twothousand.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twothousand.html");
     document.querySelector(".title").innerHTML = "Usher";
     document.querySelector(".century").innerHTML = "Usher's Hits";
 
@@ -978,7 +978,7 @@ if (currentArtist == "usher") {
 if (currentArtist == "lifehouse") {
 
     document.querySelector("title").innerHTML = "LifeHouse";
-    document.querySelector(".back").innerHTML = "<a href = 'one.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "one.html");
     document.querySelector(".title").innerHTML = "LifeHouse";
     document.querySelector(".century").innerHTML = "LifeHouse's Hits";
 
@@ -1017,7 +1017,7 @@ if (currentArtist == "lifehouse") {
 if (currentArtist == "alicia") {
 
     document.querySelector("title").innerHTML = "Alicia Keys";
-    document.querySelector(".back").innerHTML = "<a href = 'one.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "one.html");
     document.querySelector(".title").innerHTML = "Alicia Keys";
     document.querySelector(".century").innerHTML = "Alicia Key's Hits";
 
@@ -1056,7 +1056,7 @@ if (currentArtist == "alicia") {
 if (currentArtist == "janet") {
 
     document.querySelector("title").innerHTML = "Janet Jackson";
-    document.querySelector(".back").innerHTML = "<a href = 'one.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "one.html");
     document.querySelector(".title").innerHTML = "Janet Jackson";
     document.querySelector(".century").innerHTML = "Janet Jackson's Hits";
 
@@ -1095,7 +1095,7 @@ if (currentArtist == "janet") {
 if (currentArtist == "train") {
 
     document.querySelector("title").innerHTML = "Train";
-    document.querySelector(".back").innerHTML = "<a href = 'one.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "one.html");
     document.querySelector(".title").innerHTML = "Train";
     document.querySelector(".century").innerHTML = "Train's Hits";
 
@@ -1134,7 +1134,7 @@ if (currentArtist == "train") {
 if (currentArtist == "jennifer") {
 
     document.querySelector("title").innerHTML = "Jennifer Lopez";
-    document.querySelector(".back").innerHTML = "<a href = 'one.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "one.html");
     document.querySelector(".title").innerHTML = "Jennifer Lopez";
     document.querySelector(".century").innerHTML = "Jennifer Jopez's Hits";
 
@@ -1177,7 +1177,7 @@ if (currentArtist == "jennifer") {
 if (currentArtist == "nickel") {
 
     document.querySelector("title").innerHTML = "NickelBack";
-    document.querySelector(".back").innerHTML = "<a href = 'two.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "two.html");
     document.querySelector(".title").innerHTML = "NickelBack";
     document.querySelector(".century").innerHTML = "NickelBack's Hits";
 
@@ -1216,7 +1216,7 @@ if (currentArtist == "nickel") {
 if (currentArtist == "ashanti") {
 
     document.querySelector("title").innerHTML = "Ashanti";
-    document.querySelector(".back").innerHTML = "<a href = 'two.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "two.html");
     document.querySelector(".title").innerHTML = "Ashanti";
     document.querySelector(".century").innerHTML = "Ashanti's Hits";
 
@@ -1255,7 +1255,7 @@ if (currentArtist == "ashanti") {
 if (currentArtist == "nelly") {
 
     document.querySelector("title").innerHTML = "Nelly";
-    document.querySelector(".back").innerHTML = "<a href = 'two.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "two.html");
     document.querySelector(".title").innerHTML = "Ashanti";
     document.querySelector(".century").innerHTML = "Ashanti's Hits";
 
@@ -1294,7 +1294,7 @@ if (currentArtist == "nelly") {
 if (currentArtist == "calling") {
 
     document.querySelector("title").innerHTML = "The Calling";
-    document.querySelector(".back").innerHTML = "<a href = 'two.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "two.html");
     document.querySelector(".title").innerHTML = "The Calling";
     document.querySelector(".century").innerHTML = "The Calling's Hits";
 
@@ -1333,7 +1333,7 @@ if (currentArtist == "calling") {
 if (currentArtist == "vanessa") {
 
     document.querySelector("title").innerHTML = "Vanessa Carlton";
-    document.querySelector(".back").innerHTML = "<a href = 'two.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "two.html");
     document.querySelector(".title").innerHTML = "Vanessa Carlton";
     document.querySelector(".century").innerHTML = "Vanessa Carlton's Hits";
 
@@ -1376,7 +1376,7 @@ if (currentArtist == "vanessa") {
 if (currentArtist == "cent") {
 
     document.querySelector("title").innerHTML = "50 Cents";
-    document.querySelector(".back").innerHTML = "<a href = 'three.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "three.html");
     document.querySelector(".title").innerHTML = "50 Cents";
     document.querySelector(".century").innerHTML = "50 Cents's Hits";
 
@@ -1415,7 +1415,7 @@ if (currentArtist == "cent") {
 if (currentArtist == "kelly") {
 
     document.querySelector("title").innerHTML = "R. Kelly";
-    document.querySelector(".back").innerHTML = "<a href = 'three.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "three.html");
     document.querySelector(".title").innerHTML = "R. Kelly";
     document.querySelector(".century").innerHTML = "R. Kelly's Hits";
 
@@ -1454,7 +1454,7 @@ if (currentArtist == "kelly") {
 if (currentArtist == "sean") {
 
     document.querySelector("title").innerHTML = "Sean Paul";
-    document.querySelector(".back").innerHTML = "<a href = 'three.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "three.html");
     document.querySelector(".title").innerHTML = "Sean Paul";
     document.querySelector(".century").innerHTML = "Sean Paul's Hits";
 
@@ -1493,7 +1493,7 @@ if (currentArtist == "sean") {
 if (currentArtist == "doors") {
 
     document.querySelector("title").innerHTML = "3 Doors Down";
-    document.querySelector(".back").innerHTML = "<a href = 'three.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "three.html");
     document.querySelector(".title").innerHTML = "3 Doors Down";
     document.querySelector(".century").innerHTML = "3 Doors Down's Hits";
 
@@ -1532,7 +1532,7 @@ if (currentArtist == "doors") {
 if (currentArtist == "matchBox") {
 
     document.querySelector("title").innerHTML = "3 Doors Down";
-    document.querySelector(".back").innerHTML = "<a href = 'three.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "three.html");
     document.querySelector(".title").innerHTML = "3 Doors Down";
     document.querySelector(".century").innerHTML = "3 Doors Down's Hits";
 
@@ -1575,7 +1575,7 @@ if (currentArtist == "matchBox") {
 if (currentArtist == "spears") {
 
     document.querySelector("title").innerHTML = "Brittney Spears";
-    document.querySelector(".back").innerHTML = "<a href = 'four.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "four.html");
     document.querySelector(".title").innerHTML = "Brittney Spears";
     document.querySelector(".century").innerHTML = "Brittney Spears's Hits";
 
@@ -1614,7 +1614,7 @@ if (currentArtist == "spears") {
 if (currentArtist == "maroon") {
 
     document.querySelector("title").innerHTML = "Maroon 5";
-    document.querySelector(".back").innerHTML = "<a href = 'four.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "four.html");
     document.querySelector(".title").innerHTML = "Maroon 5";
     document.querySelector(".century").innerHTML = "Maroon 5's Hits";
 
@@ -1652,7 +1652,7 @@ if (currentArtist == "maroon") {
 if (currentArtist == "avril") {
 
     document.querySelector("title").innerHTML = "Avril Lavigne";
-    document.querySelector(".back").innerHTML = "<a href = 'four.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "four.html");
     document.querySelector(".title").innerHTML = "Avril Lavigne";
     document.querySelector(".century").innerHTML = "Avril Lavigne's Hits";
 
@@ -1690,7 +1690,7 @@ if (currentArtist == "avril") {
 if (currentArtist == "evanescence") {
 
     document.querySelector("title").innerHTML = "Evanescence";
-    document.querySelector(".back").innerHTML = "<a href = 'four.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "four.html");
     document.querySelector(".title").innerHTML = "Evanescence";
     document.querySelector(".century").innerHTML = "Evanescence's Hits";
 
@@ -1728,7 +1728,7 @@ if (currentArtist == "evanescence") {
 if (currentArtist == "linkin") {
 
     document.querySelector("title").innerHTML = "Linkin Park";
-    document.querySelector(".back").innerHTML = "<a href = 'four.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "four.html");
     document.querySelector(".title").innerHTML = "Linkin Park";
     document.querySelector(".century").innerHTML = "Linkin Park's Hits";
 
@@ -1770,7 +1770,7 @@ if (currentArtist == "linkin") {
 if (currentArtist == "mariah") {
 
     document.querySelector("title").innerHTML = "Mariah Carey";
-    document.querySelector(".back").innerHTML = "<a href = 'five.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "five.html");
     document.querySelector(".title").innerHTML = "Mariah Carey";
     document.querySelector(".century").innerHTML = "Mariah Carey's Hits";
 
@@ -1808,7 +1808,7 @@ if (currentArtist == "mariah") {
 if (currentArtist == "gwen") {
 
     document.querySelector("title").innerHTML = "Gwen Stefani";
-    document.querySelector(".back").innerHTML = "<a href = 'five.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "five.html");
     document.querySelector(".title").innerHTML = "Gwen Stefani";
     document.querySelector(".century").innerHTML = "Gwen Stefani's Hits";
 
@@ -1846,7 +1846,7 @@ if (currentArtist == "gwen") {
 if (currentArtist == "mario") {
 
     document.querySelector("title").innerHTML = "Mario";
-    document.querySelector(".back").innerHTML = "<a href = 'five.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "five.html");
     document.querySelector(".title").innerHTML = "Mario";
     document.querySelector(".century").innerHTML = "Mario's Hits";
 
@@ -1884,7 +1884,7 @@ if (currentArtist == "mario") {
 if (currentArtist == "kellyy") {
 
     document.querySelector("title").innerHTML = "Kelly Clarkson";
-    document.querySelector(".back").innerHTML = "<a href = 'five.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "five.html");
     document.querySelector(".title").innerHTML = "Kelly Clarkson";
     document.querySelector(".century").innerHTML = "Kelly Clarkson's Hits";
 
@@ -1922,7 +1922,7 @@ if (currentArtist == "kellyy") {
 if (currentArtist == "ciara") {
 
     document.querySelector("title").innerHTML = "Kelly Clarkson";
-    document.querySelector(".back").innerHTML = "<a href = 'five.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "five.html");
     document.querySelector(".title").innerHTML = "Kelly Clarkson";
     document.querySelector(".century").innerHTML = "Kelly Clarkson's Hits";
 
@@ -1964,7 +1964,7 @@ if (currentArtist == "ciara") {
 if (currentArtist == "chris") {
 
     document.querySelector("title").innerHTML = "Chris Brown";
-    document.querySelector(".back").innerHTML = "<a href = 'six.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "six.html");
     document.querySelector(".title").innerHTML = "Chris Brown";
     document.querySelector(".century").innerHTML = "Chris Brown's Hits";
 
@@ -2002,7 +2002,7 @@ if (currentArtist == "chris") {
 if (currentArtist == "rascal") {
 
     document.querySelector("title").innerHTML = "Chris Brown";
-    document.querySelector(".back").innerHTML = "<a href = 'six.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "six.html");
     document.querySelector(".title").innerHTML = "Chris Brown";
     document.querySelector(".century").innerHTML = "Chris Brown's Hits";
 
@@ -2040,7 +2040,7 @@ if (currentArtist == "rascal") {
 if (currentArtist == "neyo") {
 
     document.querySelector("title").innerHTML = "Ne-Yo";
-    document.querySelector(".back").innerHTML = "<a href = 'six.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "six.html");
     document.querySelector(".title").innerHTML = "Ne-Yo";
     document.querySelector(".century").innerHTML = "Ne-Yo's Hits";
 
@@ -2078,7 +2078,7 @@ if (currentArtist == "neyo") {
 if (currentArtist == "rihanna") {
 
     document.querySelector("title").innerHTML = "Rihanna";
-    document.querySelector(".back").innerHTML = "<a href = 'six.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "six.html");
     document.querySelector(".title").innerHTML = "Rihanna";
     document.querySelector(".century").innerHTML = "Rihanna's Hits";
 
@@ -2116,7 +2116,7 @@ if (currentArtist == "rihanna") {
 if (currentArtist == "mary") {
 
     document.querySelector("title").innerHTML = "Mary J. Blige";
-    document.querySelector(".back").innerHTML = "<a href = 'six.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "six.html");
     document.querySelector(".title").innerHTML = "Mary J. Blige";
     document.querySelector(".century").innerHTML = "Mary J. Blige's Hits";
 
@@ -2158,7 +2158,7 @@ if (currentArtist == "mary") {
 if (currentArtist == "akon") {
 
     document.querySelector("title").innerHTML = "Akon";
-    document.querySelector(".back").innerHTML = "<a href = 'seven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seven.html");
     document.querySelector(".title").innerHTML = "Akon";
     document.querySelector(".century").innerHTML = "Akon's Hits";
 
@@ -2196,7 +2196,7 @@ if (currentArtist == "akon") {
 if (currentArtist == "fergie") {
 
     document.querySelector("title").innerHTML = "Fergie";
-    document.querySelector(".back").innerHTML = "<a href = 'seven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seven.html");
     document.querySelector(".title").innerHTML = "Fergie";
     document.querySelector(".century").innerHTML = "Fergie's Hits";
 
@@ -2234,7 +2234,7 @@ if (currentArtist == "fergie") {
 if (currentArtist == "justin") {
 
     document.querySelector("title").innerHTML = "Justin Timberlake";
-    document.querySelector(".back").innerHTML = "<a href = 'seven.html'> Back </a>";
+    ddocument.querySelector(".back").setAttribute("href", "seven.html");
     document.querySelector(".title").innerHTML = "Justin Timberlake";
     document.querySelector(".century").innerHTML = "Justin Timberlake's Hits";
 
@@ -2272,7 +2272,7 @@ if (currentArtist == "justin") {
 if (currentArtist == "daughtry") {
 
     document.querySelector("title").innerHTML = "Justin Timberlake";
-    document.querySelector(".back").innerHTML = "<a href = 'seven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seven.html");
     document.querySelector(".title").innerHTML = "Justin Timberlake";
     document.querySelector(".century").innerHTML = "Justin Timberlake's Hits";
 
@@ -2310,7 +2310,7 @@ if (currentArtist == "daughtry") {
 if (currentArtist == "carrie") {
 
     document.querySelector("title").innerHTML = "Carrie Underwood";
-    document.querySelector(".back").innerHTML = "<a href = 'seven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seven.html");
     document.querySelector(".title").innerHTML = "Carrie Underwood";
     document.querySelector(".century").innerHTML = "Carrie Underwood's Hits";
 
@@ -2352,7 +2352,7 @@ if (currentArtist == "carrie") {
 if (currentArtist == "lil") {
 
     document.querySelector("title").innerHTML = "Lil Wayne";
-    document.querySelector(".back").innerHTML = "<a href = 'eightt.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eightt.html");
     document.querySelector(".title").innerHTML = "Lil Wayne";
     document.querySelector(".century").innerHTML = "Lil Wayne's Hits";
 
@@ -2390,7 +2390,7 @@ if (currentArtist == "lil") {
 if (currentArtist == "leona") {
 
     document.querySelector("title").innerHTML = "Leona Lewis";
-    document.querySelector(".back").innerHTML = "<a href = 'eightt.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eightt.html");
     document.querySelector(".title").innerHTML = "Leona Lewis";
     document.querySelector(".century").innerHTML = "Leona Lewis's Hits";
 
@@ -2428,7 +2428,7 @@ if (currentArtist == "leona") {
 if (currentArtist == "jordin") {
 
     document.querySelector("title").innerHTML = "Jordin Sparks";
-    document.querySelector(".back").innerHTML = "<a href = 'eightt.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eightt.html");
     document.querySelector(".title").innerHTML = "Jording Sparks";
     document.querySelector(".century").innerHTML = "Jordin Sparks's Hits";
 
@@ -2466,7 +2466,7 @@ if (currentArtist == "jordin") {
 if (currentArtist == "ti") {
 
     document.querySelector("title").innerHTML = "T.I.";
-    document.querySelector(".back").innerHTML = "<a href = 'eightt.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eightt.html");
     document.querySelector(".title").innerHTML = "T.I";
     document.querySelector(".century").innerHTML = "T.I's Hits";
 
@@ -2506,7 +2506,7 @@ if (currentArtist == "ti") {
 if (currentArtist == "flo") {
 
     document.querySelector("title").innerHTML = "Flo Rida";
-    document.querySelector(".back").innerHTML = "<a href = 'eightt.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eightt.html");
     document.querySelector(".title").innerHTML = "Flo Rida";
     document.querySelector(".century").innerHTML = "Flo Rida's Hits";
 
@@ -2548,7 +2548,7 @@ if (currentArtist == "flo") {
 if (currentArtist == "taylor") {
 
     document.querySelector("title").innerHTML = "Taylor Swift";
-    document.querySelector(".back").innerHTML = "<a href = 'ninee.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ninee.html");
     document.querySelector(".title").innerHTML = "Taylor Swift";
     document.querySelector(".century").innerHTML = "Taylor Swift's Hits";
 
@@ -2586,7 +2586,7 @@ if (currentArtist == "taylor") {
 if (currentArtist == "peas") {
 
     document.querySelector("title").innerHTML = "The Black Eyed Peas";
-    document.querySelector(".back").innerHTML = "<a href = 'ninee.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ninee.html");
     document.querySelector(".title").innerHTML = "The Black Eyed Peas";
     document.querySelector(".century").innerHTML = "The Black Eyed Peas's Hits";
 
@@ -2624,7 +2624,7 @@ if (currentArtist == "peas") {
 if (currentArtist == "miley") {
 
     document.querySelector("title").innerHTML = "Miley Syrus";
-    document.querySelector(".back").innerHTML = "<a href = 'ninee.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ninee.html");
     document.querySelector(".title").innerHTML = "Miley Syrus";
     document.querySelector(".century").innerHTML = "Miley Syrus's Hits";
 
@@ -2662,7 +2662,7 @@ if (currentArtist == "miley") {
 if (currentArtist == "pink") {
 
     document.querySelector("title").innerHTML = "Pink";
-    document.querySelector(".back").innerHTML = "<a href = 'ninee.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ninee.html");
     document.querySelector(".title").innerHTML = "Pink";
     document.querySelector(".century").innerHTML = "Pink's Hits";
 
@@ -2700,7 +2700,7 @@ if (currentArtist == "pink") {
 if (currentArtist == "leon") {
 
     document.querySelector("title").innerHTML = "King on Leon";
-    document.querySelector(".back").innerHTML = "<a href = 'ninee.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ninee.html");
     document.querySelector(".title").innerHTML = "King of Leon";
     document.querySelector(".century").innerHTML = "King of Leon's Hits";
 
@@ -2742,7 +2742,7 @@ if (currentArtist == "leon") {
 if (currentArtist == "direction") {
 
     document.querySelector("title").innerHTML = "One Direction";
-    document.querySelector(".back").innerHTML = "<a href = 'ten.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ten.html");
     document.querySelector(".title").innerHTML = "One Direction";
     document.querySelector(".century").innerHTML = "One Direction's Hits";
 
@@ -2780,7 +2780,7 @@ if (currentArtist == "direction") {
 if (currentArtist == "ladyy") {
 
     document.querySelector("title").innerHTML = "Lady Antebellum";
-    document.querySelector(".back").innerHTML = "<a href = 'ten.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ten.html");
     document.querySelector(".title").innerHTML = "Lady Antebellum";
     document.querySelector(".century").innerHTML = "Lady Antebellum's Hits";
 
@@ -2818,7 +2818,7 @@ if (currentArtist == "ladyy") {
 if (currentArtist == "kesha") {
 
     document.querySelector("title").innerHTML = "Kesha";
-    document.querySelector(".back").innerHTML = "<a href = 'ten.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ten.html");
     document.querySelector(".title").innerHTML = "Kesha";
     document.querySelector(".century").innerHTML = "Kesha's Hits";
 
@@ -2856,7 +2856,7 @@ if (currentArtist == "kesha") {
 if (currentArtist == "justinn") {
 
     document.querySelector("title").innerHTML = "Justin Bieber";
-    document.querySelector(".back").innerHTML = "<a href = 'ten.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ten.html");
     document.querySelector(".title").innerHTML = "Justin Bieber";
     document.querySelector(".century").innerHTML = "Justin Bieber's Hits";
 
@@ -2894,7 +2894,7 @@ if (currentArtist == "justinn") {
 if (currentArtist == "susan") {
 
     document.querySelector("title").innerHTML = "Susan Boyle";
-    document.querySelector(".back").innerHTML = "<a href = 'ten.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "ten.html");
     document.querySelector(".title").innerHTML = "Susan Boyle";
     document.querySelector(".century").innerHTML = "Susan Boyle's Hits";
 
@@ -2936,7 +2936,7 @@ if (currentArtist == "susan") {
 if (currentArtist == "cage") {
 
     document.querySelector("title").innerHTML = "Cage The Elephant";
-    document.querySelector(".back").innerHTML = "<a href = 'eleven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eleven.html");
     document.querySelector(".title").innerHTML = "Cage The Elephant";
     document.querySelector(".century").innerHTML = "Cage The Elephant's Hits";
 
@@ -2974,7 +2974,7 @@ if (currentArtist == "cage") {
 if (currentArtist == "sleeper") {
 
     document.querySelector("title").innerHTML = "Sleeper Agent";
-    document.querySelector(".back").innerHTML = "<a href = 'eleven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eleven.html");
     document.querySelector(".title").innerHTML = "Sleeper Agent";
     document.querySelector(".century").innerHTML = "Sleeper Agent's Hits";
 
@@ -3012,7 +3012,7 @@ if (currentArtist == "sleeper") {
 if (currentArtist == "foster") {
 
     document.querySelector("title").innerHTML = "Foster The People";
-    document.querySelector(".back").innerHTML = "<a href = 'eleven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eleven.html");
     document.querySelector(".title").innerHTML = "Foster The People";
     document.querySelector(".century").innerHTML = "Foster The People's Hits";
 
@@ -3050,7 +3050,7 @@ if (currentArtist == "foster") {
 if (currentArtist == "weekend") {
 
     document.querySelector("title").innerHTML = "Weeknd";
-    document.querySelector(".back").innerHTML = "<a href = 'eleven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eleven.html");
     document.querySelector(".title").innerHTML = "Weeknd";
     document.querySelector(".century").innerHTML = "Weeknd's Hits";
 
@@ -3088,7 +3088,7 @@ if (currentArtist == "weekend") {
 if (currentArtist == "tyler") {
 
     document.querySelector("title").innerHTML = "Tyler, The Creator";
-    document.querySelector(".back").innerHTML = "<a href = 'eleven.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eleven.html");
     document.querySelector(".title").innerHTML = "Tyler, The Creator";
     document.querySelector(".century").innerHTML = "Tyler, The Creator's Hits";
 
@@ -3130,7 +3130,7 @@ if (currentArtist == "tyler") {
 if (currentArtist == "nicki") {
 
     document.querySelector("title").innerHTML = "Nicki Minaj";
-    document.querySelector(".back").innerHTML = "<a href = 'twelve.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twelve.html");
     document.querySelector(".title").innerHTML = "Nicki Minaj";
     document.querySelector(".century").innerHTML = "Nicki Minaj's Hits";
 
@@ -3168,7 +3168,7 @@ if (currentArtist == "nicki") {
 if (currentArtist == "lmfao") {
 
     document.querySelector("title").innerHTML = "LMFAO";
-    document.querySelector(".back").innerHTML = "<a href = 'twelve.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twelve.html");
     document.querySelector(".title").innerHTML = "LMFAO";
     document.querySelector(".century").innerHTML = "LMFAO's Hits";
 
@@ -3206,7 +3206,7 @@ if (currentArtist == "lmfao") {
 if (currentArtist == "jason") {
 
     document.querySelector("title").innerHTML = "Jason Aldean";
-    document.querySelector(".back").innerHTML = "<a href = 'twelve.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twelve.html");
     document.querySelector(".title").innerHTML = "Jason Aldean";
     document.querySelector(".century").innerHTML = "Jason Aldean's Hits";
 
@@ -3244,7 +3244,7 @@ if (currentArtist == "jason") {
 if (currentArtist == "luke") {
 
     document.querySelector("title").innerHTML = "Luke Bryan";
-    document.querySelector(".back").innerHTML = "<a href = 'twelve.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twelve.html");
     document.querySelector(".title").innerHTML = "Luke Bryan";
     document.querySelector(".century").innerHTML = "Luke Bryan's Hits";
 
@@ -3282,7 +3282,7 @@ if (currentArtist == "luke") {
 if (currentArtist == "carly") {
 
     document.querySelector("title").innerHTML = "Carly Rae Jepsen";
-    document.querySelector(".back").innerHTML = "<a href = 'twelve.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "twelve.html");
     document.querySelector(".title").innerHTML = "Carly Rae Jepsen";
     document.querySelector(".century").innerHTML = "Carly Rae Jepsen's Hits";
 
@@ -3324,7 +3324,7 @@ if (currentArtist == "carly") {
 if (currentArtist == "bruno") {
 
     document.querySelector("title").innerHTML = "Bruno Mars";
-    document.querySelector(".back").innerHTML = "<a href = 'thirteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "thirteen.html");
     document.querySelector(".title").innerHTML = "Bruno Mars";
     document.querySelector(".century").innerHTML = "Bruno Mars's Hits";
 
@@ -3362,7 +3362,7 @@ if (currentArtist == "bruno") {
 if (currentArtist == "imagine") {
 
     document.querySelector("title").innerHTML = "Imagine Dragons";
-    document.querySelector(".back").innerHTML = "<a href = 'thirteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "thirteen.html");
     document.querySelector(".title").innerHTML = "Imagine Dragons";
     document.querySelector(".century").innerHTML = "Imagine Dragons's Hits";
 
@@ -3400,7 +3400,7 @@ if (currentArtist == "imagine") {
 if (currentArtist == "selena") {
 
     document.querySelector("title").innerHTML = "Selena Gomez";
-    document.querySelector(".back").innerHTML = "<a href = 'thirteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "thirteen.html");
     document.querySelector(".title").innerHTML = "Selena Gomez";
     document.querySelector(".century").innerHTML = "Selena Gomez's Hits";
 
@@ -3438,7 +3438,7 @@ if (currentArtist == "selena") {
 if (currentArtist == "demi") {
 
     document.querySelector("title").innerHTML = "Demi Lovato";
-    document.querySelector(".back").innerHTML = "<a href = 'thirteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "thirteen.html");
     document.querySelector(".title").innerHTML = "Demi Lovato";
     document.querySelector(".century").innerHTML = "Demi Lovato's Hits";
 
@@ -3476,7 +3476,7 @@ if (currentArtist == "demi") {
 if (currentArtist == "ed") {
 
     document.querySelector("title").innerHTML = "Ed Sheeran";
-    document.querySelector(".back").innerHTML = "<a href = 'thirteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "thirteen.html");
     document.querySelector(".title").innerHTML = "Ed Sheeran";
     document.querySelector(".century").innerHTML = "Ed Sheeran's Hits";
 
@@ -3518,7 +3518,7 @@ if (currentArtist == "ed") {
 if (currentArtist == "ariana") {
 
     document.querySelector("title").innerHTML = "Ariana Grande";
-    document.querySelector(".back").innerHTML = "<a href = 'fourteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fourteen.html");
     document.querySelector(".title").innerHTML = "Ariana Grande";
     document.querySelector(".century").innerHTML = "Ariana Grande's Hits";
 
@@ -3556,7 +3556,7 @@ if (currentArtist == "ariana") {
 if (currentArtist == "iggy") {
 
     document.querySelector("title").innerHTML = "Iggy Azalea";
-    document.querySelector(".back").innerHTML = "<a href = 'fourteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fourteen.html");
     document.querySelector(".title").innerHTML = "Iggy Azalea";
     document.querySelector(".century").innerHTML = "Iggy Azalea's Hits";
 
@@ -3594,7 +3594,7 @@ if (currentArtist == "iggy") {
 if (currentArtist == "john") {
 
     document.querySelector("title").innerHTML = "John Legend";
-    document.querySelector(".back").innerHTML = "<a href = 'fourteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fourteen.html");
     document.querySelector(".title").innerHTML = "John Legend";
     document.querySelector(".century").innerHTML = "John Legend's Hits";
 
@@ -3632,7 +3632,7 @@ if (currentArtist == "john") {
 if (currentArtist == "pharrell") {
 
     document.querySelector("title").innerHTML = "Pharrell Williams";
-    document.querySelector(".back").innerHTML = "<a href = 'fourteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fourteen.html");
     document.querySelector(".title").innerHTML = "Pharrell Williams";
     document.querySelector(".century").innerHTML = "Pharrell Williams' Hits";
 
@@ -3670,7 +3670,7 @@ if (currentArtist == "pharrell") {
 if (currentArtist == "republic") {
 
     document.querySelector("title").innerHTML = "OneRepublic";
-    document.querySelector(".back").innerHTML = "<a href = 'fourteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fourteen.html");
     document.querySelector(".title").innerHTML = "OneRepublic";
     document.querySelector(".century").innerHTML = "OneRepublic's Hits";
 
@@ -3712,7 +3712,7 @@ if (currentArtist == "republic") {
 if (currentArtist == "fetty") {
 
     document.querySelector("title").innerHTML = "Fetty Wap";
-    document.querySelector(".back").innerHTML = "<a href = 'fifteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fifteen.html");
     document.querySelector(".title").innerHTML = "Fetty Wap";
     document.querySelector(".century").innerHTML = "Fetty Wap's Hits";
 
@@ -3750,7 +3750,7 @@ if (currentArtist == "fetty") {
 if (currentArtist == "meghan") {
 
     document.querySelector("title").innerHTML = "Meghan Trainor";
-    document.querySelector(".back").innerHTML = "<a href = 'fifteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fifteen.html");
     document.querySelector(".title").innerHTML = "Meghan Trainor";
     document.querySelector(".century").innerHTML = "Fetty Wap's Hits";
 
@@ -3788,7 +3788,7 @@ if (currentArtist == "meghan") {
 if (currentArtist == "sam") {
 
     document.querySelector("title").innerHTML = "Sam Smith";
-    document.querySelector(".back").innerHTML = "<a href = 'fifteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fifteen.html");
     document.querySelector(".title").innerHTML = "Sam Smith";
     document.querySelector(".century").innerHTML = "Sam Smith's Hits";
 
@@ -3826,7 +3826,7 @@ if (currentArtist == "sam") {
 if (currentArtist == "mark") {
 
     document.querySelector("title").innerHTML = "Mark Ronson";
-    document.querySelector(".back").innerHTML = "<a href = 'fifteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fifteen.html");
     document.querySelector(".title").innerHTML = "Mark Ronson";
     document.querySelector(".century").innerHTML = "Mark Ronson's Hits";
 
@@ -3864,7 +3864,7 @@ if (currentArtist == "mark") {
 if (currentArtist == "hozier") {
 
     document.querySelector("title").innerHTML = "Hozier";
-    document.querySelector(".back").innerHTML = "<a href = 'fifteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "fifteen.html");
     document.querySelector(".title").innerHTML = "Hozier";
     document.querySelector(".century").innerHTML = "Hozier's Hits";
 
@@ -3906,7 +3906,7 @@ if (currentArtist == "hozier") {
 if (currentArtist == "adele") {
 
     document.querySelector("title").innerHTML = "Adele";
-    document.querySelector(".back").innerHTML = "<a href = 'sixteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "sixteen.html");
     document.querySelector(".title").innerHTML = "Adele";
     document.querySelector(".century").innerHTML = "Adele's Hits";
 
@@ -3944,7 +3944,7 @@ if (currentArtist == "adele") {
 if (currentArtist == "pilots") {
 
     document.querySelector("title").innerHTML = "Twenty One Pilots";
-    document.querySelector(".back").innerHTML = "<a href = 'sixteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "sixteen.html");
     document.querySelector(".title").innerHTML = "Tewnty One Pilots";
     document.querySelector(".century").innerHTML = "Twenty One Pilots' Hits";
 
@@ -3982,7 +3982,7 @@ if (currentArtist == "pilots") {
 if (currentArtist == "shawn") {
 
     document.querySelector("title").innerHTML = "Shawn Mendez";
-    document.querySelector(".back").innerHTML = "<a href = 'sixteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "sixteen.html");
     document.querySelector(".title").innerHTML = "Shawn Menddez";
     document.querySelector(".century").innerHTML = "Shawn Mendez's Hits";
 
@@ -4020,7 +4020,7 @@ if (currentArtist == "shawn") {
 if (currentArtist == "future") {
 
     document.querySelector("title").innerHTML = "Future";
-    document.querySelector(".back").innerHTML = "<a href = 'sixteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "sixteen.html");
     document.querySelector(".title").innerHTML = "Future";
     document.querySelector(".century").innerHTML = "Future's Hits";
 
@@ -4058,7 +4058,7 @@ if (currentArtist == "future") {
 if (currentArtist == "bruce") {
 
     document.querySelector("title").innerHTML = "Bruce Springteen";
-    document.querySelector(".back").innerHTML = "<a href = 'sixteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "sixteen.html");
     document.querySelector(".title").innerHTML = "Bruce Springteen";
     document.querySelector(".century").innerHTML = "Bruce Springteen's Hits";
 
@@ -4098,7 +4098,7 @@ if (currentArtist == "bruce") {
 if (currentArtist == "bts") {
 
     document.querySelector("title").innerHTML = "BTS";
-    document.querySelector(".back").innerHTML = "<a href = 'seventeen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seventeen.html");
     document.querySelector(".title").innerHTML = "BTS";
     document.querySelector(".century").innerHTML = "BTS's Hits";
 
@@ -4136,7 +4136,7 @@ if (currentArtist == "bts") {
 if (currentArtist == "astro") {
 
     document.querySelector("title").innerHTML = "Astro";
-    document.querySelector(".back").innerHTML = "<a href = 'seventeen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seventeen.html");
     document.querySelector(".title").innerHTML = "Astro";
     document.querySelector(".century").innerHTML = "Astro's Hits";
 
@@ -4174,7 +4174,7 @@ if (currentArtist == "astro") {
 if (currentArtist == "chainsmokers") {
 
     document.querySelector("title").innerHTML = "The Chainsmokers";
-    document.querySelector(".back").innerHTML = "<a href = 'seventeen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seventeen.html");
     document.querySelector(".title").innerHTML = "The Chainsmokers";
     document.querySelector(".century").innerHTML = "The Chainsmokers' Hits";
 
@@ -4212,7 +4212,7 @@ if (currentArtist == "chainsmokers") {
 if (currentArtist == "migos") {
 
     document.querySelector("title").innerHTML = "Migos";
-    document.querySelector(".back").innerHTML = "<a href = 'seventeen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seventeen.html");
     document.querySelector(".title").innerHTML = "Migos";
     document.querySelector(".century").innerHTML = "Migos's Hits";
 
@@ -4250,7 +4250,7 @@ if (currentArtist == "migos") {
 if (currentArtist == "u2") {
 
     document.querySelector("title").innerHTML = "U2";
-    document.querySelector(".back").innerHTML = "<a href = 'seventeen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "seventeen.html");
     document.querySelector(".title").innerHTML = "U2";
     document.querySelector(".century").innerHTML = "U2's Hits";
 
@@ -4290,7 +4290,7 @@ if (currentArtist == "u2") {
 if (currentArtist == "drake") {
 
     document.querySelector("title").innerHTML = "Drake";
-    document.querySelector(".back").innerHTML = "<a href = 'eighteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eighteen.html");
     document.querySelector(".title").innerHTML = "Drake";
     document.querySelector(".century").innerHTML = "Drake's Hits";
 
@@ -4328,7 +4328,7 @@ if (currentArtist == "drake") {
 if (currentArtist == "post") {
 
     document.querySelector("title").innerHTML = "Post Malone";
-    document.querySelector(".back").innerHTML = "<a href = 'eighteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eighteen.html");
     document.querySelector(".title").innerHTML = "Post Malone";
     document.querySelector(".century").innerHTML = "Post Malone's Hits";
 
@@ -4366,7 +4366,7 @@ if (currentArtist == "post") {
 if (currentArtist == "xxx") {
 
     document.querySelector("title").innerHTML = "XXXTENTACION";
-    document.querySelector(".back").innerHTML = "<a href = 'eighteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eighteen.html");
     document.querySelector(".title").innerHTML = "XXXTENTACION";
     document.querySelector(".century").innerHTML = "XXXTENTACION's Hits";
 
@@ -4404,7 +4404,7 @@ if (currentArtist == "xxx") {
 if (currentArtist == "camila") {
 
     document.querySelector("title").innerHTML = "Camila Cabello";
-    document.querySelector(".back").innerHTML = "<a href = 'eighteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eighteen.html");
     document.querySelector(".title").innerHTML = "Camila Cabello";
     document.querySelector(".century").innerHTML = "Camila Cabello's Hits";
 
@@ -4442,7 +4442,7 @@ if (currentArtist == "camila") {
 if (currentArtist == "dua") {
 
     document.querySelector("title").innerHTML = "Dua Lipa";
-    document.querySelector(".back").innerHTML = "<a href = 'eighteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "eighteen.html");
     document.querySelector(".title").innerHTML = "Dua Lipa";
     document.querySelector(".century").innerHTML = "Dua Lipa's Hits";
 
@@ -4482,7 +4482,7 @@ if (currentArtist == "dua") {
 if (currentArtist == "billie") {
 
     document.querySelector("title").innerHTML = "Billie Ellish";
-    document.querySelector(".back").innerHTML = "<a href = 'nineteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nineteen.html");
     document.querySelector(".title").innerHTML = "Billie Ellish";
     document.querySelector(".century").innerHTML = "Billie Ellish's Hits";
 
@@ -4520,7 +4520,7 @@ if (currentArtist == "billie") {
 if (currentArtist == "jonas") {
 
     document.querySelector("title").innerHTML = "The Jonas Brothers";
-    document.querySelector(".back").innerHTML = "<a href = 'nineteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nineteen.html");
     document.querySelector(".title").innerHTML = "The Jonas Brothers";
     document.querySelector(".century").innerHTML = "The Jonas Brothers's Hits";
 
@@ -4558,7 +4558,7 @@ if (currentArtist == "jonas") {
 if (currentArtist == "panic") {
 
     document.querySelector("title").innerHTML = "Panic at the Disco";
-    document.querySelector(".back").innerHTML = "<a href = 'nineteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nineteen.html");
     document.querySelector(".title").innerHTML = "Panic at the Disco";
     document.querySelector(".century").innerHTML = "Panic at the Disco's Hits";
 
@@ -4596,7 +4596,7 @@ if (currentArtist == "panic") {
 if (currentArtist == "cardi") {
 
     document.querySelector("title").innerHTML = "Cardi B";
-    document.querySelector(".back").innerHTML = "<a href = 'nineteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nineteen.html");
     document.querySelector(".title").innerHTML = "Cardi B";
     document.querySelector(".century").innerHTML = "Cardi B's Hits";
 
@@ -4634,7 +4634,7 @@ if (currentArtist == "cardi") {
 if (currentArtist == "dj") {
 
     document.querySelector("title").innerHTML = "DJ Khalid";
-    document.querySelector(".back").innerHTML = "<a href = 'nineteen.html'> Back </a>";
+    document.querySelector(".back").setAttribute("href", "nineteen.html");
     document.querySelector(".title").innerHTML = "DJ Khalid";
     document.querySelector(".century").innerHTML = "DJ Khalid's Hits";
 
