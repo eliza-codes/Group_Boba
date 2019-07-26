@@ -81,8 +81,9 @@
     text-align: center;
     display: inline block;
     font-size: 20px;
-    text-decoration: bold;
+    text-decoration: none;
     cursor: pointer;
+    color: white;
 
 }
 
@@ -107,8 +108,9 @@ position: fixed;
     text-align: center;
     display: inline block;
     font-size: 20px;
-    text-decoration: bold;
+    text-decoration: none;
     cursor: pointer;
+    color: white;
 
 }
 
@@ -129,8 +131,9 @@ position: fixed;
     text-align: center;
     display: inline block;
     font-size: 20px;
-    text-decoration: bold;
+    text-decoration: none;
     cursor: pointer;
+    color: white;
 
 }
 
@@ -151,8 +154,9 @@ position: fixed;
     text-align: center;
     display: inline block;
     font-size: 20px;
-    text-decoration: bold;
+    text-decoration: none;
     cursor: pointer;
+    color: white;
 }
 
 .games:hover{
