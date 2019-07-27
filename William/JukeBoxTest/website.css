@@ -1,5 +1,5 @@
 body {
-
+    width:100%;
     background-color: lightgrey;
 
 }
@@ -547,7 +547,7 @@ body {
     background-color: rgb(241, 212, 172);
     border-radius: 20px;
     width: 200px;
-    margin: 0px 590px;
+    margin: 0px 600px;
     padding: 20px 15px;
     cursor: pointer;
     display: inline-block;
@@ -563,7 +563,7 @@ body {
     border-radius: 20px;
     width: 200px;
     padding: 20px 15px;
-    margin: 0px 590px;
+    margin: 0px 600px;
     cursor: pointer;
     display: inline-block;
     

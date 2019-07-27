@@ -48,7 +48,7 @@
     border-width: 5px;
     border-color: #f56c80;
     color: white;
-
+    padding: 15px;
 
 }
 
@@ -69,6 +69,7 @@ body{
     border: inset;
     border-width: 5px;
     border-color: #f56c80;
+    padding: 15px;
 }
 
 .aesFlo{
